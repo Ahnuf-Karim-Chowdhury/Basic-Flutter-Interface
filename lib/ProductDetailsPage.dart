@@ -41,7 +41,9 @@ class ProductDetailsPage extends StatelessWidget {
                   // Navigate to the Buy Now page
                   Navigator.push(
                     context,
+
                     MaterialPageRoute(builder: (context) => BuyNowPage()),
+
                   );
                 },
                 style: ElevatedButton.styleFrom(
@@ -51,7 +53,9 @@ class ProductDetailsPage extends StatelessWidget {
                   'Buy Now',
                   style: TextStyle(fontSize: 15, color: Colors.black),
                 ),
+
               ),
+              ), 
             ],
           ),
         ),

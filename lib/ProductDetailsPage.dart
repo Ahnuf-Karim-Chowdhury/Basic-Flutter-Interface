@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-//import 'BuyNowPage.dart';
+import 'BuyNowPage.dart';
 
 class ProductDetailsPage extends StatelessWidget {
 
@@ -36,7 +36,7 @@ class ProductDetailsPage extends StatelessWidget {
               ),
 
               SizedBox(height: 20),
-            /*  ElevatedButton(
+              ElevatedButton(
                 onPressed: () {
                   // Navigate to the Buy Now page
                   Navigator.push(
@@ -51,7 +51,7 @@ class ProductDetailsPage extends StatelessWidget {
                   'Buy Now',
                   style: TextStyle(fontSize: 15, color: Colors.black),
                 ),
-              ), */
+              ), 
             ],
           ),
         ),
